@@ -7,8 +7,6 @@
 #include <UltraOOXX/Game.h>
 #include <UltraOOXX/Wrapper/Content.h>
 
-// weeeeeeeeeeee~~~^^
-// weeeeeeeeeeee~~~^^2
 bool load(const char *libpath, Content &table)
 {
     table.handle = dlopen(libpath, RTLD_LAZY);
